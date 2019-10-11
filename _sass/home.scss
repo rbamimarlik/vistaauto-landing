@@ -1,0 +1,29 @@
+.service {
+  .card {
+    height: 100%;
+
+    .service-icon-wrapper {
+      padding: 1rem;
+      text-align: center;
+    }
+  }
+}
+
+footer .navbar {
+  background: none !important;
+}
+
+footer .promote a {
+  img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all .5s;
+  }
+}
+
+footer .promote a:hover img {
+  -webkit-filter: none;
+  filter: none;
+}
+
+
